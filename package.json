@@ -23,5 +23,16 @@
   },
   "devDependencies": {
     "prettier": "^3.0.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekzus/templakz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nekzus/templakz/issues"
+  },
+  "homepage": "https://github.com/Nekzus/templakz#readme"
 }
