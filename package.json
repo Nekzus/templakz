@@ -1,50 +1,57 @@
 {
-    "name": "templakz",
-    "version": "0.0.0",
-    "description": "Create projects as goncy would",
-    "main": "bin/index.mjs",
-    "engines": {
-        "node": ">=15"
-    },
-    "bin": {
-        "templakz": "bin/index.mjs"
-    },
-    "keywords": [],
-    "author": "nekzus",
-    "license": "MIT",
-    "dependencies": {
-        "glob": "^10.3.5",
-        "picocolors": "^1.0.0",
-        "prompts": "^2.4.2",
-        "yargs": "^17.7.2"
-    },
-    "scripts": {
-        "start": "node bin/index.mjs",
-        "format:check": "prettier --check .",
-        "format:write": "prettier --write .",
-        "lint:check": "eslint .",
-        "lint:fix": "eslint --fix .",
-        "commit": "git-cz",
-        "semantic-release": "semantic-release --branches main"
-    },
-    "devDependencies": {
-        "eslint": "^8.50.0",
-        "eslint-config-standard": "^17.1.0",
-        "eslint-plugin-commonjs": "^1.0.2",
-        "eslint-plugin-import": "^2.28.1",
-        "eslint-plugin-n": "^16.1.0",
-        "eslint-plugin-promise": "^6.1.1",
-        "prettier": "^3.0.3"
-    },
-    "directories": {
-        "lib": "lib"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Nekzus/templakz.git"
-    },
-    "bugs": {
-        "url": "https://github.com/Nekzus/templakz/issues"
-    },
-    "homepage": "https://github.com/Nekzus/templakz#readme"
+  "name": "templakz",
+  "version": "0.0.0-development",
+  "description": "Create projects as goncy would",
+  "main": "bin/index.mjs",
+  "engines": {
+    "node": ">=15"
+  },
+  "bin": {
+    "templakz": "bin/index.mjs"
+  },
+  "keywords": [],
+  "author": "nekzus",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.5",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node bin/index.mjs",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release --branches main"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.50.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-commonjs": "^1.0.2",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.0.3",
+    "semantic-release": "^22.0.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nekzus/templakz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nekzus/templakz/issues"
+  },
+  "homepage": "https://github.com/Nekzus/templakz#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
