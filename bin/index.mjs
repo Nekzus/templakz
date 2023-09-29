@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import {main} from "../lib/main.mjs";
+import { main } from '../lib/main.mjs'
 
-main().catch(console.error);
+main().catch(console.error)
