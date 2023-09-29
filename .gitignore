@@ -1,0 +1,21 @@
+# Automatically generated files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Local configuration files
+.env
+
+# System-specific build folders
+/dist/
+/test/
+/.next/
+/.nuxt/
+out/
+.nyc_output/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~

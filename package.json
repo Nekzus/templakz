@@ -1,0 +1,27 @@
+{
+  "name": "templakz",
+  "version": "0.0.0",
+  "description": "Create projects as goncy would",
+  "main": "bin/index.mjs",
+  "engines": {
+    "node": ">=15"
+  },
+  "bin": {
+    "templakz": "bin/index.mjs"
+  },
+  "keywords": [],
+  "author": "nekzus",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.5",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node bin/index.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
