@@ -1,7 +1,7 @@
 {
   "name": "templakz",
   "version": "0.0.0-development",
-  "description": "Create projects as goncy would",
+  "description": "Project kickstart assistant",
   "main": "bin/index.mjs",
   "engines": {
     "node": ">=15"
@@ -9,14 +9,30 @@
   "bin": {
     "templakz": "bin/index.mjs"
   },
-  "keywords": [],
+  "keywords": [
+    "project kickstarter",
+    "project generator",
+    "project scaffolding",
+    "React.js",
+    "Next.js",
+    "template",
+    "boilerplate",
+    "project setup",
+    "project initialization",
+    "package manager",
+    "ESLint",
+    "TypeScript",
+    "Tailwind CSS",
+    "developer tools",
+    "development environment",
+    "CLI tool"
+  ],
   "author": "nekzus",
   "license": "MIT",
   "dependencies": {
     "glob": "^10.3.5",
     "picocolors": "^1.0.0",
-    "prompts": "^2.4.2",
-    "yargs": "^17.7.2"
+    "prompts": "^2.4.2"
   },
   "scripts": {
     "start": "node bin/index.mjs",
