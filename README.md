@@ -3,8 +3,9 @@
 # Templakz - Project Kickstart Assistant
 
 [![Github Workflow](https://github.com/nekzus/templakz/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/templakz/actions/workflows/publish.yml)
-[![npm version](https://img.shields.io/npm/v/templakz.svg)](https://www.npmjs.com/package/templakz)
-[![npm](https://img.shields.io/npm/dm/templakz.svg)](https://www.npmjs.com/package/templakz)
+[![npm-version](https://img.shields.io/npm/v/templakz.svg)](https://www.npmjs.com/package/templakz)
+[![npm-month](https://img.shields.io/npm/dm/templakz.svg)](https://www.npmjs.com/package/templakz)
+[![npm-total](https://img.shields.io/npm/dt/templakz.svg?style=flat)](https://www.npmjs.com/package/templakz)
 
 <!-- Subtitle -->
 
