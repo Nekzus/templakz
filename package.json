@@ -2,12 +2,13 @@
   "name": "templakz",
   "version": "0.0.0-development",
   "description": "Project kickstart assistant",
-  "main": "bin/index.mjs",
+  "type": "module",
+  "exports": "./bin/index.js",
   "engines": {
-    "node": ">=15"
+    "node": ">=16"
   },
   "bin": {
-    "templakz": "bin/index.mjs"
+    "templakz": "bin/index.js"
   },
   "keywords": [
     "project kickstarter",
@@ -35,7 +36,7 @@
     "prompts": "^2.4.2"
   },
   "scripts": {
-    "start": "node bin/index.mjs",
+    "start": "node bin/index.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",

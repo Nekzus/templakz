@@ -9,6 +9,7 @@ yarn-error.log
 # System-specific build folders
 /dist/
 /test/
+/my-*/
 /.next/
 /.nuxt/
 out/
