@@ -7,8 +7,12 @@
   "engines": {
     "node": ">=16"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "bin": {
-    "templakz": "bin/index.js"
+    "templakz": "./bin/index.js"
   },
   "keywords": [
     "project kickstarter",
@@ -37,7 +41,7 @@
     "yargs": "^17.7.2"
   },
   "scripts": {
-    "start": "node bin/index.js",
+    "start": "node ./bin/index.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",

@@ -26,7 +26,7 @@ Commitizen configuration
 ```
 npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
-Scipt
+Script
 
 ```
 "commit": "git-cz"

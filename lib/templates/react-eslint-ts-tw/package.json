@@ -16,7 +16,7 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release --branches main"
   },
-  "author": "nekzus",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "18.2.0",
