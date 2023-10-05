@@ -15,7 +15,7 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release --branches main"
   },
-  "author": "",
+  "author": "{{author}}",
   "license": "MIT",
   "dependencies": {
     "@types/node": "20.6.3",

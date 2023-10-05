@@ -35,7 +35,8 @@
   "author": "nekzus",
   "license": "MIT",
   "dependencies": {
-    "glob": "^10.3.5",
+    "cross-spawn": "^7.0.3",
+    "open": "^9.1.0",
     "picocolors": "^1.0.0",
     "prompts": "^2.4.2",
     "yargs": "^17.7.2"
