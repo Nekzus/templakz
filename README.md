@@ -2,14 +2,14 @@
 
 # Templakz - Project Kickstart Assistant
 
+<!-- Subtitle -->
+
+> _Streamline Your Project Initialization Process with Templakz_
+
 [![Github Workflow](https://github.com/nekzus/templakz/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/templakz/actions/workflows/publish.yml)
 [![npm-version](https://img.shields.io/npm/v/templakz.svg)](https://www.npmjs.com/package/templakz)
 [![npm-month](https://img.shields.io/npm/dm/templakz.svg)](https://www.npmjs.com/package/templakz)
 [![npm-total](https://img.shields.io/npm/dt/templakz.svg?style=flat)](https://www.npmjs.com/package/templakz)
-
-<!-- Subtitle -->
-
-_Streamline Your Project Initialization Process with Templakz_
 
 <!-- Description -->
 
