@@ -54,18 +54,44 @@ yarn global add templakz
 
 ## Usage
 
-### Creating a New Project
+### Creating a New Project (Interactive Mode)
 
 1. Open your terminal.
 2. Run the following command to generate a new project based on a template:
 
 ```
-templakz create
+templakz  |> Activate Interactive Mode Console
 ```
 
 3. Follow the interactive prompts to provide project details, including name, template, and package manager.
 
 4. Templakz will set up your project using the selected template and configurations.
+
+### Creating a New Project (Automatic Mode)
+
+```
+templakz create [options]
+```
+
+### Available Options
+
+```
+-h, --help: Show help.
+-v, --version: Show version number.
+-n, --name: Name of the project.
+-t, --temp: Template to use.
+-p, --pack: Package manager to use.
+-c, --vscode: Open the project in Visual Studio Code.
+-s, --start: Start the server and browser.
+```
+
+### Example usage in automatic mode
+
+```
+templakz create -n my-app -t react-eslint-ts-tw -p pnpm -c -s
+```
+
+This command will create a new project with the name "my-app," using the "react-eslint-ts-tw" template, the package manager "pnpm," open the project in Visual Studio Code, and also start the server and browser.
 
 ## Supported Templates
 
@@ -97,4 +123,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact me at [maseortega@gmail.com](mailto:maseortega@gmail.com).
+If you have any questions or suggestions, please feel free to contact me at [nekzus.dev@gmail.com](mailto:nekzus.dev@gmail.com).
