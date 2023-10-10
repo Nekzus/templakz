@@ -4,7 +4,7 @@ import configureYargs from '../lib/cli.mjs'
 import createProject from '../lib/project.mjs'
 
 const main = async () => {
-    const yargs = configureYargs()
+    const yargs = await configureYargs()
 
     try {
         await createProject(yargs)
