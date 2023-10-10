@@ -11,6 +11,10 @@
 [![npm-month](https://img.shields.io/npm/dm/templakz.svg)](https://www.npmjs.com/package/templakz)
 [![npm-total](https://img.shields.io/npm/dt/templakz.svg?style=flat)](https://www.npmjs.com/package/templakz)
 
+<div align="center">
+<img width="500" alt="templakz" src="https://res.cloudinary.com/dsvsl0b0b/image/upload/v1696971705/npm-package/lbje2fspjdxwpezs4fnu.png">
+</div>
+
 <!-- Description -->
 
 ## Overview
