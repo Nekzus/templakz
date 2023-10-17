@@ -26,8 +26,8 @@ tests/
 demo/
 
 # Version control-related files
-.git/
-.gitignore
+/.git/
+/.gitignore
 
 # Configuration files
 .eslintrc.*
