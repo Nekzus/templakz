@@ -32,8 +32,7 @@ demo/
 # GitHub-specific files and directories
 .github/
 
-# Exclude root .gitignore
-/.gitignore
+# Exclude .gitignore
+.gitignore
 
-# Allow .gitignore in subdirectories
-!.gitignore
+
