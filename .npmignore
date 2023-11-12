@@ -25,13 +25,14 @@ test/
 tests/
 demo/
 
-# Version control-related files
-.git/
-.gitignore
-
 # Configuration files
 .eslintrc.*
 .prettierrc
 
 # GitHub-specific files and directories
 .github/
+
+# Exclude .gitignore
+.gitignore
+
+

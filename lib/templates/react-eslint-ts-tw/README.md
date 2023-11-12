@@ -1,4 +1,4 @@
-# Welcome to {{name}}
+# Welcome to {{Name}}
 
 First, run the development server:
 
