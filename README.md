@@ -7,9 +7,9 @@
 > _Streamline Your Project Initialization Process with Templakz_
 
 [![Github Workflow](https://github.com/nekzus/templakz/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/templakz/actions/workflows/publish.yml)
-[![npm-version](https://img.shields.io/npm/v/templakz.svg)](https://www.npmjs.com/package/templakz)
-[![npm-month](https://img.shields.io/npm/dm/templakz.svg)](https://www.npmjs.com/package/templakz)
-[![npm-total](https://img.shields.io/npm/dt/templakz.svg?style=flat)](https://www.npmjs.com/package/templakz)
+[![npm-version](https://img.shields.io/npm/v/@nekzus/templakz.svg)](https://www.npmjs.com/package/@nekzus/templakz)
+[![npm-month](https://img.shields.io/npm/dm/@nekzus/templakz.svg)](https://www.npmjs.com/package/@nekzus/templakz)
+[![npm-total](https://img.shields.io/npm/dt/@nekzus/templakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/templakz)
 
 <div align="center">
 <img width="700" alt="templakz" src="https://res.cloudinary.com/dsvsl0b0b/image/upload/v1696982013/npm-package/lbje2fspjdxwpezs4fnu.png">
@@ -50,10 +50,10 @@ To install Templakz globally, execute the following command in your terminal:
 
 ```
 # Using npm
-npm install -g templakz
+npm install -g @nekzus/templakz
 
 # Using Yarn
-yarn global add templakz
+yarn global add @nekzus/templakz
 ```
 
 ## Usage
