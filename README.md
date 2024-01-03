@@ -6,6 +6,7 @@
 
 > _Streamline Your Project Initialization Process with Templakz_
 
+
 [![Github Workflow](https://github.com/nekzus/templakz/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/templakz/actions/workflows/publish.yml)
 [![npm-version](https://img.shields.io/npm/v/@nekzus/templakz.svg)](https://www.npmjs.com/package/@nekzus/templakz)
 [![npm-month](https://img.shields.io/npm/dm/@nekzus/templakz.svg)](https://www.npmjs.com/package/@nekzus/templakz)
