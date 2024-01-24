@@ -34,7 +34,7 @@
     "tailwindcss": "3.4.1",
     "vite": "5.0.12",
     "cz-conventional-changelog": "3.3.0",
-    "semantic-release": "23.0.0"
+    "semantic-release": "22.0.8"
   },
   "config": {
     "commitizen": {
