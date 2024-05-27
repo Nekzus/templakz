@@ -26,11 +26,11 @@ Templakz is a powerful project template generator designed to simplify the proje
 
 -   **Effortless Project Kickstart**: Say goodbye to tedious project setup tasks. Templakz automates the process, ensuring you can get started quickly.
 
--   **Diverse Template Library**: Templates cover popular frameworks, libraries, and tools, including React.js and Next.js.
+-   **Diverse Template Library**: Templates cover popular frameworks, libraries, and tools, including React.js,Next.js and Expo React Native.
 
 -   **Tailor-Made Projects**: Easily customize templates to match your project's unique requirements. Templakz empowers you to make changes and save your custom configurations.
 
--   **Preferred Package Managers**: Seamlessly integrate Templakz with your preferred package manager, whether it's npm, Yarn, or pnpm.
+-   **Preferred Package Managers**: Seamlessly integrate Templakz with your preferred package manager, whether it's npm, yarn, pnpm or bun.
 
 -   **Interactive CLI**: The interactive command-line interface guides you through the project creation process, providing a user-friendly experience.
 
@@ -43,7 +43,7 @@ Templakz is a powerful project template generator designed to simplify the proje
 Before using Templakz, make sure you have the following prerequisites installed:
 
 -   [Node.js](https://nodejs.org/) (version 15 or higher)
--   [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (for package management)
+-   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) (for package management)
 
 ### Installation
 
@@ -84,12 +84,12 @@ templakz create [options]
 -h, --help: Show help.
 -v, --version: Show version number.
 -n, --name: Name of the project.
--t, --temp: Template to use.
--p, --pack: Package manager to use.
+-t, --temp: Template to use (react, next, expo).
+-p, --pack: Package manager to use (npm, yarn, pnpm, bun).
 -c, --vscode: Open the project in Visual Studio Code.
 -s, --start: Start the server and browser.
 ```
-
+****
 ### Example usage in automatic mode
 
 ```
@@ -105,6 +105,8 @@ Templakz offers a variety of templates, including:
 -   **React.js Template**: A template for React.js projects with ESLint, TypeScript, and Tailwind CSS.
 
 -   **Next.js Template**: A template for Next.js projects with ESLint, TypeScript, and Tailwind CSS.
+  
+-   **Expo React Native Template**: A template for Expo React Native projects with Expo-router, TypeScript, and Tailwind CSS.
 
 Feel free to explore and use these templates to kickstart your projects.
 
