@@ -1,19 +1,32 @@
-import { Text, View } from 'react-native'
+import { Footer, Header } from '@/components'
+import { Pressable, StatusBar, Text, View } from 'react-native'
 
-import { Link } from 'expo-router'
-import { useSafeAreaInsets } from 'react-native-safe-area-context'
+import { useColorScheme } from 'nativewind'
+import { useEffect } from 'react'
 
 export default function Page() {
+    const { colorScheme, toggleColorScheme } = useColorScheme()
+
+    useEffect(() => {
+        StatusBar.setBarStyle(
+            colorScheme === 'dark' ? 'light-content' : 'dark-content',
+            true
+        )
+    }, [colorScheme])
+
     return (
-        <View className="flex flex-1 dark:bg-black">
+        <View className="flex-1 bg-white dark:bg-slate-800">
             <Header />
-            <Content />
+            <Content
+                toggleColorScheme={toggleColorScheme}
+                colorScheme={colorScheme}
+            />
             <Footer />
         </View>
     )
 }
 
-function Content() {
+function Content({ toggleColorScheme, colorScheme }) {
     return (
         <View className="justify-center flex-1">
             <View className="py-12 md:py-24 lg:py-32 xl:py-48">
@@ -30,69 +43,46 @@ function Content() {
                             services now.
                         </Text>
 
-                        <View className="gap-4">
-                            <Link
-                                suppressHighlighting
-                                className="flex items-center justify-center px-4 py-2 overflow-hidden text-sm font-medium transition-colors bg-gray-900 rounded-md h-9 text-gray-50 web:shadow ios:shadow hover:bg-gray-900/90 active:bg-gray-400/90 web:focus-visible:outline-none web:focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                                href="/home"
+                        <Pressable
+                            onPress={toggleColorScheme}
+                            style={{
+                                marginTop: 24,
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                paddingHorizontal: 16,
+                                paddingVertical: 8,
+                                overflow: 'hidden',
+                                backgroundColor:
+                                    colorScheme === 'dark'
+                                        ? '#FFFFFF'
+                                        : '#1F2937',
+                                borderRadius: 8,
+                                height: 36,
+                                shadowColor: '#000',
+                                shadowOffset: { width: 0, height: 2 },
+                                shadowOpacity: 0.25,
+                                shadowRadius: 3.84,
+                                elevation: 5,
+                            }}
+                        >
+                            <Text
+                                style={{
+                                    color:
+                                        colorScheme === 'dark'
+                                            ? '#000000'
+                                            : '#FFFFFF',
+                                    fontSize: 14,
+                                    fontWeight: '500',
+                                    transform: [{ scaleX: 0.8 }],
+                                }}
                             >
-                                Explore
-                            </Link>
-                        </View>
+                                {colorScheme === 'dark'
+                                    ? 'Switch to Light Mode'
+                                    : 'Switch to Dark Mode'}
+                            </Text>
+                        </Pressable>
                     </View>
                 </View>
-            </View>
-        </View>
-    )
-}
-
-function Header() {
-    const { top } = useSafeAreaInsets()
-    return (
-        <View style={{ paddingTop: top }}>
-            <View className="flex flex-row items-center justify-between px-4 lg:px-6 h-14">
-                <Link
-                    className="items-center justify-center flex-1 font-bold dark:text-white"
-                    href="/"
-                >
-                    ACME
-                </Link>
-                <View className="flex flex-row gap-4 sm:gap-6">
-                    <Link
-                        className="font-medium text-md hover:underline web:underline-offset-4 dark:text-white"
-                        href="/"
-                    >
-                        About
-                    </Link>
-                    <Link
-                        className="font-medium text-md hover:underline web:underline-offset-4 dark:text-white"
-                        href="/"
-                    >
-                        Product
-                    </Link>
-                    <Link
-                        className="font-medium text-md hover:underline web:underline-offset-4 dark:text-white"
-                        href="/"
-                    >
-                        Pricing
-                    </Link>
-                </View>
-            </View>
-        </View>
-    )
-}
-
-function Footer() {
-    const { bottom } = useSafeAreaInsets()
-    return (
-        <View
-            className="flex bg-gray-100 shrink-0 native:hidden"
-            style={{ paddingBottom: bottom }}
-        >
-            <View className="items-start flex-1 px-4 py-6 md:px-6 ">
-                <Text className={'text-center text-gray-700'}>
-                    © {new Date().getFullYear()} Me
-                </Text>
             </View>
         </View>
     )
