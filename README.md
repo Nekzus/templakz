@@ -93,10 +93,10 @@ templakz create [options]
 ### Example usage in automatic mode
 
 ```
-templakz create -n my-app -t react-eslint-ts-tw -p pnpm -c -s
+templakz create -n my-app -t react -p pnpm -c -s
 ```
 
-This command will create a new project with the name "my-app," using the "react-eslint-ts-tw" template, the package manager "pnpm," open the project in Visual Studio Code, and also start the server and browser.
+This command will create a new project with the name "my-app," using the "react" template, the package manager "pnpm," open the project in Visual Studio Code, and also start the server and browser.
 
 ## Supported Templates
 
