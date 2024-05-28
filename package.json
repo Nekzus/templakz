@@ -1,7 +1,7 @@
 {
     "name": "@nekzus/templakz",
     "version": "0.0.0-development",
-    "description": "Project kickstart assistant",
+    "description": "Project kickstart assistant: Pre-configured templates for Next.js, React.js, and Expo React Native, styled with Tailwind CSS and integrated with ESLint for code quality assurance.",
     "type": "module",
     "exports": "./bin/index.js",
     "engines": {

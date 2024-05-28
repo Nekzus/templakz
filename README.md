@@ -1,6 +1,6 @@
 <!-- Title -->
 
-# Templakz - Project Kickstart Assistant
+# Templakz - CLI (Next.js, React.js, Expo React Native)
 
 <!-- Subtitle -->
 
