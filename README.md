@@ -53,7 +53,7 @@ To install Templakz globally, execute the following command in your terminal:
 # Using npm
 npm install -g @nekzus/templakz
 
-# Using Yarn
+# Using yarn
 yarn global add @nekzus/templakz
 ```
 
